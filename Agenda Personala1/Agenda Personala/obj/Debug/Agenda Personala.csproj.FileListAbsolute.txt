@@ -1,0 +1,6 @@
+D:\Ale\faculta\CURS POO\Agenda Personala\Agenda Personala\Agenda Personala\bin\Debug\Agenda Personala.exe.config
+D:\Ale\faculta\CURS POO\Agenda Personala\Agenda Personala\Agenda Personala\bin\Debug\Agenda Personala.exe
+D:\Ale\faculta\CURS POO\Agenda Personala\Agenda Personala\Agenda Personala\bin\Debug\Agenda Personala.pdb
+D:\Ale\faculta\CURS POO\Agenda Personala\Agenda Personala\Agenda Personala\obj\Debug\Agenda Personala.csprojAssemblyReference.cache
+D:\Ale\faculta\CURS POO\Agenda Personala\Agenda Personala\Agenda Personala\obj\Debug\Agenda Personala.exe
+D:\Ale\faculta\CURS POO\Agenda Personala\Agenda Personala\Agenda Personala\obj\Debug\Agenda Personala.pdb
