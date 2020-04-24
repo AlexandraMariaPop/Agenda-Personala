@@ -17,8 +17,12 @@ namespace Agenda_Personala
             p1.Email = "AAAA@yahoo.com";
             p1.PhoneNumber = 09876543456789;
             p1.Age = 44;
-            
-            Console.WriteLine(p1);
+            List<Person> read = ReadPeoplefromFile.GetPeopleFromFile();
+            foreach (Person p in read)
+            {
+                Console.WriteLine(p);
+            }
+            // Console.WriteLine(p1);
             Console.ReadKey();
         }
     }
