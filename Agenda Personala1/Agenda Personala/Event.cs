@@ -14,11 +14,13 @@ namespace Agenda_Personala
         private string eventname;
         private string details;
         public List<Person> InvolvedPeople;
+        
         public Event()
         {
             location = "";
             eventname = "";
             details = "";
+            InvolvedPeople = new List<Person>();
 
         }
         public Event(string eventname, string location, DateTime starttime, DateTime endtime, string details)

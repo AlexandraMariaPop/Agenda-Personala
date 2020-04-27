@@ -17,6 +17,14 @@ namespace Agenda_Personala
             p1.Email = "AAAA@yahoo.com";
             p1.PhoneNumber = 09876543456789;
             p1.Age = 44;
+            Agenda owner1 = new Agenda(p1);
+
+            Event danceparty = new Event();
+            danceparty.StartTime = new DateTime(2020, 04, 27, 12, 0, 0);
+            danceparty.EndTime = new DateTime(2020, 04, 27, 12, 0, 0);
+            owner1.AddEvent(danceparty);
+
+
             List<Person> read = ReadPeoplefromFile.GetPeopleFromFile();
             foreach (Person p in read)
             {
@@ -24,6 +32,7 @@ namespace Agenda_Personala
             }
             // Console.WriteLine(p1);
             Console.ReadKey();
+            
         }
     }
 }
