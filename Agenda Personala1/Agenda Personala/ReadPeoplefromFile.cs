@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.IO;
 namespace Agenda_Personala
 {
-   public class ReadPeoplefromFile:Person
+   public class ReadPeoplefromFile
     {
         public static List<Person> GetPeopleFromFile()
         {

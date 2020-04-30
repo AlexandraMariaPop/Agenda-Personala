@@ -30,6 +30,7 @@ namespace Agenda_Personala
             this.starttime = starttime;
             this.endtime = endtime;
             this.details = details;
+            InvolvedPeople = new List<Person>();
         }
         public string EventName
         {
